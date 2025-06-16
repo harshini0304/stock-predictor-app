@@ -6,7 +6,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
 
-model = load_model("models/stock_model.keras")
+model = load_model('C:\Users\harsh\Desktop\Stock\models\Stock Predictions Model.keras')
 
 
 st.set_page_config(page_title="Stock Price Predictor", layout="centered")
