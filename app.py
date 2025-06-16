@@ -7,7 +7,8 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
 
 # Load the trained model (make sure it's in the right path relative to app.py)
-model = load_model("models/stock_model.keras", safe_mode=False)
+model = load_model("models/stock_model.h5")
+
 
 
 # Streamlit page settings
